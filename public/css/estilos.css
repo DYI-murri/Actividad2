@@ -1,0 +1,60 @@
+.main{
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    padding-bottom: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+.container.one{
+    background-color: #755e30;
+    padding: 1em 1em 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-size: 16px;
+}
+.container.two{
+    padding: 1em 1em 0;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    font-size: 16px;
+}
+.nav{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding-bottom: 10px;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav1 ul li{
+    display: inline;
+}
+.nav1 ul li a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: black;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.nav1 ul li:first-child a{
+    padding-left: 0;
+}
+.nav1 .buttons .btn{
+    display: inline-block;
+}
+.nav1 .buttons .signup{
+    margin-left: 10px;
+}
+.nav2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+.nav2 form input{
+    padding: 8px 14px;
+    border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.2);
+}
+.nav2 form input:focus{
+    outline: none;
+    box-shadow: 0 0 0 0.30em rgba(113,110,253,0.25);
+}
